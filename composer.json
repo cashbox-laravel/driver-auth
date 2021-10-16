@@ -1,5 +1,5 @@
 {
-    "name": "your-name/cashier-bankname-auth",
+    "name": "andrey-helldar/cashier-driver-auth",
     "description": "BankName API Authorization Driver",
     "type": "library",
     "license": "MIT",
