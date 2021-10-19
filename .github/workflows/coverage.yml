@@ -7,7 +7,7 @@ on:
 
 jobs:
     scrutinizer:
-        runs-on: ubuntu-20.04
+        runs-on: ubuntu-latest
 
         name: Coverage
 
@@ -18,7 +18,7 @@ jobs:
             -   name: Setup PHP
                 uses: shivammathur/setup-php@v2
                 with:
-                    php-version: 7.4
+                    php-version: 8.0
                     extensions: curl, mbstring, zip, pcntl, pdo, pdo_sqlite, iconv, bcmath
                     coverage: xdebug
 
