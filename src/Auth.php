@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace LaravelCashierProvider\Driver\BankName\Auth;
+namespace CashierProvider\Driver\BankName\Auth;
 
 use Helldar\Contracts\Cashier\Auth\Auth as AuthContract;
 use Helldar\Contracts\Cashier\Http\Request;
 use Helldar\Contracts\Cashier\Resources\Model;
 use Helldar\Support\Concerns\Makeable;
-use LaravelCashierProvider\Driver\BankName\Auth\Constants\Keys;
-use LaravelCashierProvider\Driver\BankName\Auth\Resources\AccessToken;
-use LaravelCashierProvider\Driver\BankName\Auth\Support\Hash;
+use CashierProvider\Driver\BankName\Auth\Constants\Keys;
+use CashierProvider\Driver\BankName\Auth\Resources\AccessToken;
+use CashierProvider\Driver\BankName\Auth\Support\Hash;
 
 /** @method static Auth make(Model $model, Request $request, bool $hash = true) */
 class Auth implements AuthContract

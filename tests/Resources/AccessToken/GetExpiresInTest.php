@@ -8,7 +8,7 @@ use Carbon\Carbon as BaseCarbon;
 use DateTimeInterface;
 use Illuminate\Support\Carbon;
 use Tests\TestCase;
-use LaravelCashierProvider\Driver\BankName\Auth\Resources\AccessToken;
+use CashierProvider\Driver\BankName\Auth\Resources\AccessToken;
 
 class GetExpiresInTest extends TestCase
 {

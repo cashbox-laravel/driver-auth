@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace LaravelCashierProvider\Driver\BankName\Auth\Constants;
+namespace CashierProvider\Driver\BankName\Auth\Constants;
 
 class Keys
 {

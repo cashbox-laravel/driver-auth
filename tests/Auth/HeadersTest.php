@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Tests\Auth;
 
 use Tests\TestCase;
-use LaravelCashierProvider\Driver\BankName\Auth\Auth;
+use CashierProvider\Driver\BankName\Auth\Auth;
 
 class HeadersTest extends TestCase
 {
