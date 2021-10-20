@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace CashierProvider\Driver\BankName\Auth\Constants;
+namespace CashierProvider\BankName\Auth\Constants;
 
 class Keys
 {

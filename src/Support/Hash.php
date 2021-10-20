@@ -1,12 +1,12 @@
 <?php
 
-namespace CashierProvider\Driver\BankName\Auth\Support;
+namespace CashierProvider\BankName\Auth\Support;
 
 use Helldar\Contracts\Cashier\Resources\Model;
 use Helldar\Support\Concerns\Makeable;
 use Helldar\Support\Facades\Helpers\Ables\Arrayable;
-use CashierProvider\Driver\BankName\Auth\Constants\Keys;
-use CashierProvider\Driver\BankName\Auth\Resources\AccessToken;
+use CashierProvider\BankName\Auth\Constants\Keys;
+use CashierProvider\BankName\Auth\Resources\AccessToken;
 
 class Hash
 {

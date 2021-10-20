@@ -6,7 +6,7 @@ namespace Tests\Resources\AccessToken;
 
 use Helldar\Contracts\Cashier\Resources\AccessToken as AccessTokenContract;
 use Tests\TestCase;
-use CashierProvider\Driver\BankName\Auth\Resources\AccessToken;
+use CashierProvider\BankName\Auth\Resources\AccessToken;
 
 class MakeTest extends TestCase
 {

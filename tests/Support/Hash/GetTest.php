@@ -9,7 +9,7 @@ use DateTimeInterface;
 use Helldar\Contracts\Cashier\Resources\AccessToken;
 use Illuminate\Support\Carbon;
 use Tests\TestCase;
-use CashierProvider\Driver\BankName\Auth\Support\Hash;
+use CashierProvider\BankName\Auth\Support\Hash;
 
 class GetTest extends TestCase
 {

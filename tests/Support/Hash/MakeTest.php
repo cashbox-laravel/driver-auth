@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Tests\Support\Hash;
 
 use Tests\TestCase;
-use CashierProvider\Driver\BankName\Auth\Support\Hash;
+use CashierProvider\BankName\Auth\Support\Hash;
 
 class MakeTest extends TestCase
 {

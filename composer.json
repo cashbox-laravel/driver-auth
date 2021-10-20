@@ -1,5 +1,5 @@
 {
-    "name": "cashier-provider/driver-bankname-auth",
+    "name": "cashier-provider/bankname-auth",
     "description": "BankName API Authorization Driver",
     "type": "library",
     "license": "MIT",
@@ -16,8 +16,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/CashierProvider/driver-bankname-auth/issues",
-        "source": "https://github.com/CashierProvider/driver-bankname-auth"
+        "issues": "https://github.com/cashier-provider/driver-bankname-auth/issues",
+        "source": "https://github.com/cashier-provider/driver-bankname-auth"
     },
     "require": {
         "php": "^7.3|^8.0",
@@ -35,7 +35,7 @@
     },
     "autoload": {
         "psr-4": {
-            "CashierProvider\\Driver\\BankName\\Auth\\": "src"
+            "CashierProvider\\BankName\\Auth\\": "src"
         }
     },
     "autoload-dev": {

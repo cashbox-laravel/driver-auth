@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Tests\Auth;
 
 use Tests\TestCase;
-use CashierProvider\Driver\BankName\Auth\Auth;
+use CashierProvider\BankName\Auth\Auth;
 
 class HeadersTest extends TestCase
 {

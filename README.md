@@ -14,7 +14,7 @@ BankName API Authorization Driver.
 To get the latest version of `BankName Auth Cashier Provider Driver`, simply require the project using [Composer](https://getcomposer.org):
 
 ```bash
-$ composer require cashier-provider/driver-bankname-auth
+$ composer require cashier-provider/bankname-auth
 ```
 
 Or manually update `require` block of `composer.json` and run `composer update`.
@@ -22,7 +22,7 @@ Or manually update `require` block of `composer.json` and run `composer update`.
 ```json
 {
     "require": {
-        "cashier-provider/driver-bankname-auth": "^1.0"
+        "cashier-provider/bankname-auth": "^1.0"
     }
 }
 ```
@@ -35,10 +35,10 @@ In some cases, for example, to initialize a payment session, it is necessary to 
 parameter must be specified in the request.
 
 ```php
-namespace CashierProvider\Driver\BankName\BankTechnology\Requests;
+namespace CashierProvider\BankName\BankTechnology\Requests;
 
 use Helldar\Cashier\Http\Request;
-use CashierProvider\Driver\BankName\Auth\Auth;
+use CashierProvider\BankName\Auth\Auth;
 
 class Init extends Request
 {
@@ -54,10 +54,10 @@ class Init extends Request
 In cases where the request must be signed with a special hashed token, you must set the `$hash` variable to `true`.
 
 ```php
-namespace CashierProvider\Driver\BankName\BankTechnology\Requests;
+namespace CashierProvider\BankName\BankTechnology\Requests;
 
 use Helldar\Cashier\Http\Request;
-use CashierProvider\Driver\BankName\Auth\Auth;
+use CashierProvider\BankName\Auth\Auth;
 
 class Get extends Request
 {

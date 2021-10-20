@@ -8,7 +8,7 @@ use Carbon\Carbon as BaseCarbon;
 use DateTimeInterface;
 use Illuminate\Support\Carbon;
 use Tests\TestCase;
-use CashierProvider\Driver\BankName\Auth\Resources\AccessToken;
+use CashierProvider\BankName\Auth\Resources\AccessToken;
 
 class GetExpiresInTest extends TestCase
 {
