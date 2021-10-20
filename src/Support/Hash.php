@@ -1,12 +1,12 @@
 <?php
 
-namespace YourName\CashierDriver\BankName\Auth\Support;
+namespace LaravelCashierProvider\Driver\BankName\Auth\Support;
 
 use Helldar\Contracts\Cashier\Resources\Model;
 use Helldar\Support\Concerns\Makeable;
 use Helldar\Support\Facades\Helpers\Ables\Arrayable;
-use YourName\CashierDriver\BankName\Auth\Constants\Keys;
-use YourName\CashierDriver\BankName\Auth\Resources\AccessToken;
+use LaravelCashierProvider\Driver\BankName\Auth\Constants\Keys;
+use LaravelCashierProvider\Driver\BankName\Auth\Resources\AccessToken;
 
 class Hash
 {

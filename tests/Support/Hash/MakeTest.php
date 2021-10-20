@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Tests\Support\Hash;
 
 use Tests\TestCase;
-use YourName\CashierDriver\BankName\Auth\Support\Hash;
+use LaravelCashierProvider\Driver\BankName\Auth\Support\Hash;
 
 class MakeTest extends TestCase
 {

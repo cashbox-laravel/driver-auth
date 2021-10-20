@@ -6,7 +6,7 @@ namespace Tests\Resources\AccessToken;
 
 use Helldar\Contracts\Cashier\Resources\AccessToken as AccessTokenContract;
 use Tests\TestCase;
-use YourName\CashierDriver\BankName\Auth\Resources\AccessToken;
+use LaravelCashierProvider\Driver\BankName\Auth\Resources\AccessToken;
 
 class MakeTest extends TestCase
 {

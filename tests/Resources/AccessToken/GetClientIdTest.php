@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Tests\Resources\AccessToken;
 
 use Tests\TestCase;
-use YourName\CashierDriver\BankName\Auth\Resources\AccessToken;
+use LaravelCashierProvider\Driver\BankName\Auth\Resources\AccessToken;
 
 class GetClientIdTest extends TestCase
 {

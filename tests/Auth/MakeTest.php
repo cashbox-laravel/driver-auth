@@ -6,7 +6,7 @@ namespace Tests\Auth;
 
 use Helldar\Contracts\Cashier\Auth\Auth as AuthContract;
 use Tests\TestCase;
-use YourName\CashierDriver\BankName\Auth\Auth;
+use LaravelCashierProvider\Driver\BankName\Auth\Auth;
 
 class MakeTest extends TestCase
 {

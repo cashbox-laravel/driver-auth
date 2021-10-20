@@ -1,11 +1,11 @@
 <?php
 
-namespace YourName\CashierDriver\BankName\Auth\Resources;
+namespace LaravelCashierProvider\Driver\BankName\Auth\Resources;
 
 use Helldar\Contracts\Cashier\Resources\AccessToken as AccessTokenContract;
 use Helldar\SimpleDataTransferObject\DataTransferObject;
 use Illuminate\Support\Carbon;
-use YourName\CashierDriver\BankName\Auth\Constants\Keys;
+use LaravelCashierProvider\Driver\BankName\Auth\Constants\Keys;
 
 class AccessToken extends DataTransferObject implements AccessTokenContract
 {

@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Tests\Auth;
 
+use LaravelCashierProvider\Driver\BankName\Auth\Auth;
 use Tests\TestCase;
-use YourName\CashierDriver\BankName\Auth\Auth;
 
 class BodyTest extends TestCase
 {

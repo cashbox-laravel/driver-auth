@@ -1,5 +1,5 @@
 {
-    "name": "andrey-helldar/cashier-driver-auth",
+    "name": "laravel-cashier-provider/driver-bankname-auth",
     "description": "BankName API Authorization Driver",
     "type": "library",
     "license": "MIT",
@@ -16,8 +16,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/your-name/cashier-bankname-auth/issues",
-        "source": "https://github.com/your-name/cashier-bankname-auth"
+        "issues": "https://github.com/LaravelCashierProvider/driver-bankname-auth/issues",
+        "source": "https://github.com/LaravelCashierProvider/driver-bankname-auth"
     },
     "require": {
         "php": "^7.3|^8.0",
@@ -35,7 +35,7 @@
     },
     "autoload": {
         "psr-4": {
-            "YourName\\CashierDriver\\BankName\\Auth\\": "src"
+            "LaravelCashierProvider\\Driver\\BankName\\Auth\\": "src"
         }
     },
     "autoload-dev": {
