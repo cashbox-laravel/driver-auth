@@ -1,4 +1,4 @@
-# BankName Auth Cashier Provider Driver
+# BankName Cashier Provider Authorization Driver
 
 BankName API Authorization Driver.
 
@@ -7,11 +7,11 @@ BankName API Authorization Driver.
 [![Total Downloads][badge_downloads]][link_packagist]
 [![License][badge_license]][link_license]
 
-> **Note:** This driver doesn't need to be installed in the application. I's needed to implement [`BankName`](#) bank authorization for [Cashier](https://github.com/andrey-helldar/cashier) drivers.
+> **Note:** This driver doesn't need to be installed in the application. I's needed to implement [`BankName`](#) bank authorization for [Cashier Provider](https://github.com/cashier-provider/core) drivers.
 
 ## Installation
 
-To get the latest version of `BankName Auth Cashier Provider Driver`, simply require the project using [Composer](https://getcomposer.org):
+To get the latest version of `BankName Cashier Provider Authorization Driver`, simply require the project using [Composer](https://getcomposer.org):
 
 ```bash
 $ composer require cashier-provider/bankname-auth
@@ -67,14 +67,14 @@ class Get extends Request
 }
 ```
 
-[badge_downloads]:      https://img.shields.io/packagist/dt/andrey-helldar/cashier.svg?style=flat-square
+[badge_downloads]:      https://img.shields.io/packagist/dt/cashier-provider/core.svg?style=flat-square
 
-[badge_license]:        https://img.shields.io/packagist/l/andrey-helldar/cashier.svg?style=flat-square
+[badge_license]:        https://img.shields.io/packagist/l/cashier-provider/core.svg?style=flat-square
 
-[badge_stable]:         https://img.shields.io/github/v/release/andrey-helldar/cashier?label=stable&style=flat-square
+[badge_stable]:         https://img.shields.io/github/v/release/cashier-provider/core?label=stable&style=flat-square
 
 [badge_unstable]:       https://img.shields.io/badge/unstable-dev--main-orange?style=flat-square
 
 [link_license]:         LICENSE
 
-[link_packagist]:       https://packagist.org/packages/andrey-helldar/cashier
+[link_packagist]:       https://packagist.org/packages/cashier-provider/core
