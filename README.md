@@ -1,6 +1,6 @@
-# BankName Cashier Provider Authorization Driver
+# BankName Cashier Authorization Driver
 
-BankName API Authorization Driver.
+<img src="https://preview.dragon-code.pro/cashier-provider/auth-driver-template.svg?brand=laravel" alt="Cashier Authorization Driver Template"/>
 
 [![Stable Version][badge_stable]][link_packagist]
 [![Unstable Version][badge_unstable]][link_packagist]
@@ -11,7 +11,7 @@ BankName API Authorization Driver.
 
 ## Installation
 
-To get the latest version of `BankName Cashier Provider Authorization Driver`, simply require the project using [Composer](https://getcomposer.org):
+To get the latest version of `BankName Cashier Authorization Driver`, simply require the project using [Composer](https://getcomposer.org):
 
 ```bash
 $ composer require cashier-provider/bankname-auth
