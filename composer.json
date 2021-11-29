@@ -22,10 +22,10 @@
     "require": {
         "php": "^7.3|^8.0",
         "ext-json": "*",
-        "andrey-helldar/contracts": "^1.16",
-        "andrey-helldar/simple-data-transfer-object": "^1.0",
-        "andrey-helldar/support": "^4.6",
-        "cashier-provider/core": "^1.20",
+        "cashier-provider/core": "^2.0",
+        "dragon-code/contracts": "^2.0",
+        "dragon-code/simple-data-transfer-object": "^2.0",
+        "dragon-code/support": "^5.0",
         "illuminate/support": "^6.0|^7.0|^8.0|^9.0"
     },
     "require-dev": {
